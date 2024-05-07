@@ -3,13 +3,19 @@ using namespace std;
 
 class mahasiswa{
     public:
-    int nim:
+    int nim;
 
     void showNim(){
-        
+        cout << "nomor induk = " << nim << endl;
     }
-}
+};
 
 int main (){
+    mahasiswa mhs {1}; // object mhs
+    mhs.showNim (); // member access oprator
 
+    mahasiswa &redmhs = mhs; // pointer reference ref
+    refMhs.nim = 2; // member accesss operator 
+    mhs.showNim();
+    
 }
