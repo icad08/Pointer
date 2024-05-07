@@ -1,6 +1,11 @@
 #include <iostream>
 using namespace std;
 
-int main(){
+class pelajar;
+class manusia {
     
+}
+
+int main(){
+
 }
