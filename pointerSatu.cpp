@@ -8,6 +8,9 @@ class persegiPanjaang {
         return a*b;
     }
 };
+class segitiga{
+    public:
+}
 
 
 
