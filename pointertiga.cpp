@@ -6,9 +6,11 @@ class mahasiswa{
     int nim;
 
     void showNim(){
-        
+        cout << "no induk = " << nim << endl;
     }
-}
+};
+
+
 
 int main(){
 
