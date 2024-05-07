@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-class persegiPanjaang {
+class persegiPanjang {
         public:
     int panjang, lebar;
     int luasPersegiPanjang (int b, int a){
@@ -15,9 +15,14 @@ class segitiga{
     int luasSegitiga (int a, int t){
         return 0.5*a*t;
     }
-
+    
+    int hitung (persegiPanjang p){
+    return p.panjang;
+    }
 };
 
 int main(){
-
+    persegiPanjang pp;
+    segitiga sg;
+   
 }
